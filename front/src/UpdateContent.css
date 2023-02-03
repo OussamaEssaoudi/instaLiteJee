@@ -1,0 +1,31 @@
+
+
+.pictureUpdate{
+
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+
+.content{
+    border-radius: 10px;
+    width: 300px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(18px);
+}
+
+.text {
+    color : #2D2936 ;
+}
+
+.delete {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.reactPlayer {
+    overflow: hidden;
+    border-top-left-radius: 0.5rem; /* 8px */
+border-top-right-radius: 0.5rem; /* 8px */
+}

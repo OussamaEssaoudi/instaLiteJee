@@ -1,0 +1,19 @@
+
+.insta {
+    width: 500px;         
+}
+
+
+.contentArea {
+    height: 100%;
+    border-radius: 14px 14px 0px 0px;
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(15px);
+}
+
+
+.page {
+    /* background: url("./back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
