@@ -1,0 +1,61 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/instaLite-FRONTEND/node_modules
+/instaLite-FRONTEND/.pnp
+/instaLite-FRONTEND/.pnp.js
+
+# testing
+/instaLite-FRONTEND/coverage
+
+# production
+/instaLite-FRONTEND/build
+
+# misc
+/instaLite-FRONTEND/.DS_Store
+/instaLite-FRONTEND/.env.local
+/instaLite-FRONTEND/.env.development.local
+/instaLite-FRONTEND/.env.test.local
+/instaLite-FRONTEND/.env.production.local
+
+/instaLite-FRONTEND/npm-debug.log*
+/instaLite-FRONTEND/yarn-debug.log*
+/instaLite-FRONTEND/yarn-error.log*
+
+
+
+HELP.md
+/instaLite-BACKEND/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+/instaLite
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
